@@ -1,0 +1,31 @@
+header{
+    height: 200px;
+}
+header .header-title{
+    font-size: 4rem;
+}
+header .header-description{
+    font-size: 3rem;
+}
+main .main-categories{
+    display: flex;
+}
+.main-categories .category{
+    width: 30%;
+    height: 300px;
+}
+.show-characters .card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.show-characters .card-character{
+    width: 30%;
+    height: auto;
+}
+.card-character .about{
+    height: 70px;
+    top: calc(100% - 70px);
+}
+footer{
+    height: 51px;
+}

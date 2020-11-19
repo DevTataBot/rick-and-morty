@@ -1,0 +1,39 @@
+header{
+    height: 150px;
+}
+header .header-title{
+    font-size: 3rem;
+}
+header .header-description{
+    font-size: 2rem;
+}
+main .main-subtitle{
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+.main-categories h3{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+main .character-subtitle{
+    font-size: 1.8rem;
+}
+main .show-characters .card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.show-characters .card-character{
+    width: 45%;
+    margin:  10px auto;
+    height: auto;
+}
+.card-character .about{ 
+    height: 70px;
+    top: calc(100% - 70px);
+    padding: 3px;
+    font-size: 1.2rem;
+}
+footer{
+    height: 60px;
+    font-size: 1.5rem;
+}
