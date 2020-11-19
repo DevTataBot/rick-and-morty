@@ -51,7 +51,7 @@ header .header-description{
 main{
     width: 100%;
 }
-main .main-section{
+/* main .main-section{
     width: 90%;
     height: auto;
     margin: 20px auto;
@@ -97,7 +97,7 @@ main .main-categories{
 }
 .main-categories .category-unknown{
     background-image: url('../images/unknown.png');
-}
+} */
 
 main .show-characters{
     /* display: none; */

@@ -7,13 +7,13 @@ header .header-title{
 header .header-description{
     font-size: 3rem;
 }
-main .main-categories{
+/* main .main-categories{
     display: flex;
 }
 .main-categories .category{
     width: 30%;
     height: 300px;
-}
+} */
 .show-characters .card{
     display: flex;
     flex-wrap: wrap;

@@ -7,14 +7,14 @@ header .header-title{
 header .header-description{
     font-size: 2rem;
 }
-main .main-subtitle{
+/* main .main-subtitle{
     font-size: 2rem;
     line-height: 3.5rem;
 }
 .main-categories h3{
     font-size: 1.8rem;
     line-height: 2.8rem;
-}
+} */
 main .character-subtitle{
     font-size: 1.8rem;
 }
