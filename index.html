@@ -17,29 +17,30 @@
         
     </header>
     <main>
-        <section class="main-section">
+        
+        <!-- <section class="main-section">
             <div class="main-subtitle"><p>Categorias</p></div>
             <section class="main-categories">
-                 <section class="category category-alive">
+                 <section class="category category-alive" id="alive">
                          <h3>Con vida</h3>
                  </section>
-                 <section class="category category-dead">
+                 <section class="category category-dead" id="dead">
                      <h3>Muerto</h3>
                  </section>
-                 <section class="category category-unknown">
+                 <section class="category category-unknown" id="unknown">
                     <h3>Desconocido</h3>
                  </section>
             </section>     
-        </section> 
+        </section>  -->
         <section class="show-characters">
             <!-- ver seccion de blog de victor robles -->
-            <div class="character-subtitle"><p>Personajes:</p></div>
-            <section class="card">
-               <section class="card-character">
+            <div class="character-subtitle"><p>Personajes</p></div>
+            <section class="card" id="card-container">
+               <!-- <section class="card-character">
                     <div class="about">
-                        <p>Nombre <span></span></p>
-                        <p>Especie <span></span></p>
-                        <p>Locación <span></span></p>
+                        <p>Nombre <span id="cantidad"></span></p>
+                        <p>Especie <span id="nombre"></span></p>
+                        <p>Locación <span id="dimension"></span></p>
                         <p>Edad <span></span></p>
                     </div>
                 </section>
@@ -65,20 +66,22 @@
                         <p>Locación</p>
                         <p>Edad</p>
                     </div>
-                </section> 
-            </section>
-            
+                </section>  -->
+            </section>            
         </section>        
     </main>
+   
     <footer>
         <p>Hecho con amor por Tatiana Botia</p>
         <div class="footer-redes">
-            <a href="#">Instagram</a>
-            <a href="#">Github</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
+            <a href="https://www.instagram.com/tatianabotia_/" target="a_blank">Instagram</a>
+            <a href="https://github.com/TatianaBotia" target="a_blank">Github</a>
+            <a href="https://www.linkedin.com/in/caroltatiana/" target="a_blank">LinkedIn</a>
+            <a href="https://twitter.com/_Tatiana_B" target="a_blank">Twitter</a>
         </div>
     </footer>
-    
+    <script src="./assets/utils/cardGenerator.js"></script>
+    <script src="./assets/utils/fetchData.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
